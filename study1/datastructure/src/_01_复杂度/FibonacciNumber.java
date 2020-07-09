@@ -8,7 +8,7 @@ public class FibonacciNumber {
      */
 
 
-    
+    //时间复杂度O(2^n)
     public static int fib1(int n) {
 
         if(n<=1){
@@ -17,7 +17,8 @@ public class FibonacciNumber {
             return fib1(n-2)+fib1(n-1);
         }
     }
-    
+
+    //时间复杂度O(n)
     public static int fib2(int n){
         if(n<=1) {return n;}
         
